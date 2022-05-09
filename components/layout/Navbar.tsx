@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 const Navbar: NextPage = () => {
   const router = useRouter();
-  console.log(router.pathname);
+
   return (
     <header className={styles.header}>
       <img

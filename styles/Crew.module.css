@@ -1,0 +1,118 @@
+.main {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../public/background-crew-desktop.jpg");
+  background-size: cover;
+}
+
+.grid {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  height: 65%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.text-container {
+  width: min-content;
+}
+
+.role {
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  display: block;
+  margin-top: 154px;
+  margin-bottom: 15px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.name {
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 400;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  margin-bottom: 27px;
+}
+
+.bio {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  line-break: normal;
+
+  color: #d0d6f9;
+
+  margin-top: 14px;
+  width: 444px;
+}
+
+.btn-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.btn {
+  height: 15px;
+  width: 15px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 24px;
+
+  font-size: 0px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  transition: all 0.3s;
+}
+
+.btn.active-tab {
+  background-color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+.crew-img {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+
+.subheading-prefix,
+.subheading-1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.subheading-prefix {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.subheading-1 {
+  grid-row: 1;
+  grid-column: 1;
+
+  color: #ffffff;
+
+  margin-left: 28px;
+}

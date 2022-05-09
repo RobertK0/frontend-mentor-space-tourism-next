@@ -1,0 +1,5 @@
+.main {
+  min-height: 100vh;
+  background-image: url("../public/background-technology-desktop.jpg");
+  background-size: cover;
+}

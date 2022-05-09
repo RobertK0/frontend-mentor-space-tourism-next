@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +22,9 @@ const Home: NextPage = () => {
             we’ll give you a truly out of this world experience!
           </p>
         </div>
-        <a className={styles.cta}>Explore</a>
+        <Link href="/destination">
+          <a className={styles.cta}>Explore</a>
+        </Link>
       </main>
     </>
   );

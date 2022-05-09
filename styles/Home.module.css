@@ -6,8 +6,8 @@
 
 .text-container {
   position: absolute;
-  bottom: 130px;
-  left: 165px;
+  bottom: 22%;
+  left: 15%;
 
   display: flex;
   flex-direction: column;
@@ -45,8 +45,8 @@
 
 .cta {
   position: absolute;
-  bottom: 130px;
-  right: 165px;
+  bottom: 15%;
+  right: 8%;
 
   height: 274px;
   width: 274px;
@@ -67,4 +67,20 @@
   color: #000;
 
   cursor: pointer;
+  z-index: 1;
+}
+
+.cta::before {
+  position: absolute;
+  content: "";
+  height: 450px;
+  width: 450px;
+  transform: scale(0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: transform 0.7s;
+}
+
+.cta:hover::before {
+  transform: scale(1);
 }
