@@ -24,7 +24,7 @@
 }
 
 .navbar {
-  padding: 40px 165px 40px 125px;
+  padding: 0 165px 0 125px;
   backdrop-filter: blur(10px);
 }
 
@@ -35,6 +35,14 @@
   list-style: none;
 }
 
+.navlist li {
+  border-bottom: 3px solid transparent;
+  padding: 40px 0;
+  transition: all 0.3s;
+}
+.navlist li.active {
+  border-bottom: 3px solid #fff;
+}
 .navlist a {
   display: flex;
   gap: 10px;
