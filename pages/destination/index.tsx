@@ -13,6 +13,7 @@ const Destination: NextPage = () => {
 
   const tabs = data.destinations.map((element, index) => (
     <button
+      key={index}
       className={`${styles["tab-button"]} ${
         planet === index ? styles["active-tab"] : ""
       }`}

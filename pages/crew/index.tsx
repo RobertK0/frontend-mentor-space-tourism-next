@@ -9,6 +9,7 @@ const Crew: NextPage = () => {
 
   const tabs = data.crew.map((element, index) => (
     <button
+      key={index}
       onClick={setSelection.bind(null, index)}
       className={`${styles.btn} ${
         selection === index ? styles["active-tab"] : ""
