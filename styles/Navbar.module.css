@@ -1,0 +1,56 @@
+.header {
+  font-family: "Barlow Condensed", sans-serif;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 48px;
+  width: 48px;
+  margin-left: 55px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  transform: translateX(5%);
+  background-color: rgba(255, 255, 255, 0.25);
+  z-index: 5;
+}
+
+.navbar {
+  padding: 40px 165px 40px 125px;
+  backdrop-filter: blur(10px);
+}
+
+.navlist {
+  margin: 0;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.navlist a {
+  display: flex;
+  gap: 10px;
+}
+
+.navlink-prefix {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+}
+
+.navlink {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
