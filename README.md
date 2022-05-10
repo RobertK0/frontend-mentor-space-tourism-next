@@ -1,5 +1,5 @@
 ## Space tourism multi-page website
-Live site: TBD
+Live site: https://frontend-mentor-space-tourism-next.vercel.app/
 
 Solution in the works for [frontendmentor.io] challenge, [Space tourism multi-page website](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
@@ -7,4 +7,9 @@ WIP, being done with React/Next.js + Typescript and CSS modules, from a Figma de
 
 TODO:
 
-- everything
+- /technology page
+- animations
+- find out what to do about loading between pages, probably add a spinner of some sorts
+- responsive layout
+- add webp images for supported clients
+- ... 
