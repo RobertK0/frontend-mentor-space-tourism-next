@@ -73,6 +73,7 @@
   line-height: 64px;
   font-weight: 400;
   text-transform: uppercase;
+  white-space: nowrap;
 
   display: block;
   margin-top: 11px;

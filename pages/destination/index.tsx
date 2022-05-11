@@ -30,7 +30,7 @@ const Destination: NextPage = () => {
       </Head>
       <main className={styles.main}>
         <div className={styles.grid}>
-          <div>
+          <div className={styles["subheading-container"]}>
             <span className={styles["subheading-prefix"]}>01</span>
             <span className={styles["subheading-1"]}>
               Pick your destination
