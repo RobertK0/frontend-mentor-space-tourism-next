@@ -7,7 +7,7 @@ WIP, being done with React/Next.js + Typescript and CSS modules, from a Figma de
 
 TODO:
 
-- /technology page
+- ~~/technology page~~
 - animations
 - find out what to do about loading between pages, probably add a spinner of some sorts
 - responsive layout
