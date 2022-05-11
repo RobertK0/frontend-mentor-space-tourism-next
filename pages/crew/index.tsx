@@ -27,7 +27,7 @@ const Crew: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.grid}>
           <div className={styles["text-container"]}>
-            <div>
+            <div className={styles["subheading-container"]}>
               <span className={styles["subheading-prefix"]}>
                 02
               </span>

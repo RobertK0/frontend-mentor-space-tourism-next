@@ -2,11 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../../styles/Technology.module.css";
 import data from "../../public/data.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Technology: NextPage = () => {
   const [selection, setSelection] = useState(0);
-  console.log(data);
 
   const tabs = data.technology.map((element, index) => (
     <button
@@ -45,12 +44,22 @@ const Technology: NextPage = () => {
             </p>
           </div>
           <div className={styles["btn-container"]}>{tabs}</div>
+          <picture>
+            <source
+              media="(max-width: 1100px)"
+              srcSet={data.technology[selection].images.landscape}
+            />
+            <source
+              media="(min-width: 1100px)"
+              srcSet={data.technology[selection].images.portrait}
+            />
+            <img
+              className={styles["img"]}
+              src={data.technology[selection].images.portrait}
+              alt=""
+            />
+          </picture>
         </div>
-        <img
-          className={styles["img"]}
-          src={data.technology[selection].images.portrait}
-          alt="crew member"
-        />
       </main>
     </>
   );
