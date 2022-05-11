@@ -7,9 +7,10 @@ WIP, being done with React/Next.js + Typescript and CSS modules, from a Figma de
 
 TODO:
 
-- /technology page
+- ~~/technology page~~
 - animations
 - find out what to do about loading between pages, probably add a spinner of some sorts
 - responsive layout
+- find out how to use different image sources according to screen size, while using ssr in next
 - add webp images for supported clients
 - ... 
