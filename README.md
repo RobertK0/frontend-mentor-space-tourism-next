@@ -13,4 +13,5 @@ TODO:
 - responsive layout
 - ~~find out how to use different image sources according to screen size, while using ssr in next~~ learned about proper usage of picture element
 - add webp images for supported clients
+- figure out what to do with backdrop blur not working on firefox
 - ... 
